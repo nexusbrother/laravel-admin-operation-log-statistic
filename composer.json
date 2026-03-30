@@ -1,0 +1,49 @@
+{
+  "name": "nexusbrother/laravel-admin-operation-log-statistic",
+  "description": "laravel admin operation log statistic",
+  "type": "library",
+  "keywords": [
+    "laravel-admin",
+    "operation-log-statistic"
+  ],
+  "homepage": "https://github.com/nexusbrother/laravel-admin-operation-log-statistic",
+  "license": "MIT",
+  "authors": [
+  ],
+  "require": {
+    "php": ">=8.1.0",
+    "laravel/framework": ">=5.5",
+    "encore/laravel-admin": "^1.8.19"
+  },
+  "require-dev": {
+    "laravel/laravel": ">=5.5",
+    "phpunit/phpunit": "^9.5",
+    "orchestra/testbench": "^7.0",
+    "laravel/pint": ">1.0",
+    "phpstan/phpstan": "^1.10",
+    "larastan/larastan": "^2.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nexusbrother\\Admin\\": "src/"
+    }
+  },
+  "autoload-dev": {},
+  "scripts": {
+    "fix": "vendor/bin/pint"
+  },
+  "suggest": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Nexusbrother\\Admin\\ServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "config": {
+    "audit": {
+      "block-insecure": false
+    }
+  }
+}
