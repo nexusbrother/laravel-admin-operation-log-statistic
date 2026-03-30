@@ -1,6 +1,6 @@
 <?php
 
-namespace Nexusbrother\Admin\Models;
+namespace Nexusbrother\LaravelAdminOperationLogStatistic\Models;
 
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;

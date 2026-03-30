@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Nexusbrother\\Admin\\": "src/"
+      "Nexusbrother\\LaravelAdminOperationLogStatistic\\": "src/"
     }
   },
   "autoload-dev": {},
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Nexusbrother\\Admin\\ServiceProvider"
+        "Nexusbrother\\LaravelAdminOperationLogStatistic\\ServiceProvider"
       ],
       "aliases": {}
     }

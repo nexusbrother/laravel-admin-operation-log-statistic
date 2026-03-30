@@ -1,6 +1,6 @@
 <?php
 
-namespace Nexusbrother\Admin\Controllers;
+namespace Nexusbrother\LaravelAdminOperationLogStatistic\Controllers;
 
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Grid;

@@ -2,17 +2,9 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Laravel-admin database settings
-    |--------------------------------------------------------------------------
-    |
-    | Here are database settings for laravel-admin builtin model & tables.
-    |
-    */
+
     'database' => [
-        // Menu table and model.
-        'operation_statistic_model' => Nexusbrother\Admin\Models\AdminOperationLogStatistic::class,
+        'operation_statistic_model' => Nexusbrother\LaravelAdminOperationLogStatistic\Models\AdminOperationLogStatistic::class,
     ],
 
     'notification' => [
@@ -26,7 +18,7 @@ return [
         'enable'   => env('OPERATION_LOG_STATISTIC_ENABLE', false),
         'daily_at' => env('OPERATION_LOG_STATISTIC_AT', '09:55'),
         'except'   => [
-
+            
         ],
     ],
 

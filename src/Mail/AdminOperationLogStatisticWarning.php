@@ -1,6 +1,6 @@
 <?php
 
-namespace Nexusbrother\Admin\Mail;
+namespace Nexusbrother\LaravelAdminOperationLogStatistic\Mail;
 
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nexusbrother\Admin;
+namespace Nexusbrother\LaravelAdminOperationLogStatistic;
 
 use Illuminate\Console\Scheduling\Schedule;
 
@@ -79,7 +79,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         app('router')->group($attributes, function ($router) {
             /* @var \Illuminate\Support\Facades\Route $router */
-            $router->namespace('\Nexusbrother\Admin\Controllers')->group(function ($router) {
+            $router->namespace('\Nexusbrother\LaravelAdminOperationLogStatistic\Controllers')->group(function ($router) {
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('system/admin-operation-log-statistics', 'AdminOperationLogStatisticController', ['only' => 'index'])->names('admin.system.admin-operation-log-statistics');
             });

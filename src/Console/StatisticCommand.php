@@ -1,6 +1,6 @@
 <?php
 
-namespace Nexusbrother\Admin\Console;
+namespace Nexusbrother\LaravelAdminOperationLogStatistic\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Nexusbrother\Admin\Mail\AdminOperationLogStatisticWarning;
-use Nexusbrother\Admin\Mail\BaseMail;
+use Nexusbrother\LaravelAdminOperationLogStatistic\Mail\AdminOperationLogStatisticWarning;
+use Nexusbrother\LaravelAdminOperationLogStatistic\Mail\BaseMail;
 
 class StatisticCommand extends Command
 {

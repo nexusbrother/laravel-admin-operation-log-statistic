@@ -217,7 +217,3 @@ laravel-admin-operation-log-statistic/
 ## 许可证
 
 MIT License
-
-## 作者
-
-Nexusbrother - foxwenxiang@gmail.com
